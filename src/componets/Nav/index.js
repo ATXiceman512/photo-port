@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Nav() {
 
@@ -14,7 +14,7 @@ function Nav() {
   }
 
   return(
-    <header>
+    <header data-testid="header" className="flex-row px-1">
       <h2>
         <a href="/">
           <span role="img" aria-label="camera">📸</span> Oh Snap!
@@ -40,7 +40,7 @@ function Nav() {
         </ul>
       </nav>
     </header>
-  )
+  );
 }
 
 export default Nav;
